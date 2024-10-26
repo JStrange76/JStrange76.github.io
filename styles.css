@@ -1,0 +1,110 @@
+body {
+    /* the body hits the entirety of your web page */
+    margin: 0;
+    padding:0;
+    /* removes default margins and padding applied by other browsers */
+}
+header {
+    display: flex; /*Tells the header that is a flex container now */
+    justify-content: space-evenly; /*evenly spaces child elements inside the container*/
+    align-items: center; /* vertically canter the child elements inside the container*/
+    background-color: rgb(67, 160, 160); /* the background color*/
+    color: white; /* the font color */
+    padding: 20px; /*padding inside the header to create space around the content*/
+    width: 100%; /*width of the header - will go the entire width of the screen, remember ininspect you can test what your website will look like on different screen types*/
+    margin: 0 auto; /* centers the header horizontally on the page */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7); /* adds a slight shadow below the header to give it depth */
+    flex-wrap: wrap; /*makes sure that child elements wrap onto a new line if there isn't enough space*/
+}
+header img {
+    border-radius: 40%; /* rounds the corner of the element (if it's square) In this case the image in your header*/
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+    max-width: 100%; /* ensures the image is responsive*/
+    height: auto; /*matains images aspect ratio while resizing*/
+    object-fit: cover; /* crops the image without distorting*/ 
+}
+nav {
+    background-color: #361515;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+.intro {
+    max-width: 500px; /*limits the width for better readability - all these sizing things are REALLY going to help when presenting at graduation*/
+    text-align: left; /* this makes it so that everything sits along the left, of course you can can thius based on where you want items on the page*/
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+/* styling for Main*/
+main {
+    display: flex; /* Tells main that it is in a flex container*/
+    flex-direction: column; /* stacks child elements (sections) vertically in a column */
+    align-items: center; /* Align child elements horizontally in the center*/
+    padding: 30px; /* adds padding AROUND the main content for better spacing*/
+} 
+/* Styling for the section elements*/
+section {
+    background-color: darkolivegreen; /* background color for each section*/
+    border-radius: 8px; /* addes rounded corners to section*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* box shadow making it flat*/
+    padding: 20px; /* adds space INSIDE each section*/
+    margin-bottom: 20px; /* adds space at the BOTTOM of each card*/
+    width: 100%; /* makes it take up the width of the container */
+    max-width: 800px; /* limits the width to a max of 800 pixels, can go smaller if need but will not exceed*/
+}
+li {
+    margin-bottom: 10px; /* added space between each list item */
+}
+.centerheader {
+    text-align: center;
+}
+.name {
+    border: solid black 3px;
+    width: fit-content;
+    text-align: center;
+}
+.skills {
+    border: dashed rgb(99, 22, 60) 3px;
+    width: fit-content;
+    text-align: center;
+} */
+    
+
+footer {
+    background-color: #CBF6E9;
+    height: 100px;
+    font-size: 40px;
+}
+.centerfooter {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#greeting {
+    font-family:fantasy;
+}
