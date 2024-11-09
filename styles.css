@@ -722,7 +722,6 @@ section h2 {
     font-weight: bold;
 }
 
-/* Add these media queries right before this section */
 @media screen and (max-width: 1200px) {
     .achievements-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -753,13 +752,12 @@ section h2 {
     }
 }
 
-/* THEN YOUR EXISTING CONTACT FORM MEDIA QUERIES */
-/* Responsive adjustments for contact form */
+
 @media screen and (max-width: 768px) {
     .contact-container {
         padding: 1rem;
     }
-    /* ... rest of your existing media queries ... */
+   
 }
 
 .video-resources {
