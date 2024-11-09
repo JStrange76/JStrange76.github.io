@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Session - Strange Self Defense</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="images/Strange_yinyang.jpeg" alt="Logo" class="logo">
+            <h1 class="business-name">Strange Self Defense</h1>
+        </div>
+    </header>
+
+    <div class="page-container">
+        <nav class="navbar">
+            <div class="nav-background">
+                <img src="images/Bamboo_2.jpg" alt="Bamboo" class="navbar-image">
+            </div>
+            <div class="buttons-container">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="program.html" class="nav-link">Our Program</a>
+                <a href="web-defense.html" class="nav-link">Let's talk about Self Defense on the web!</a>
+                <a href="about.html" class="nav-link">About our Instructors</a>
+                <a href="students.html" class="nav-link">Our Students</a>
+            </div>
+        </nav>
+
+        <main class="content">
+            <section class="hero-section">
+                <h1>Book Your Session</h1>
+                <p>Take the first step towards personal safety and empowerment. Schedule your consultation or training session today.</p>
+            </section>
+
+            <section>
+                <h2>Contact Form</h2>
+                <div class="contact-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="program">Interested In:</label>
+                            <select id="program" name="program">
+                                <option value="physical">Physical Self Defense</option>
+                                <option value="digital">Digital Self Defense</option>
+                                <option value="both">Both Programs</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </section>
+
+            <section>
+                <h2>Other Ways to Connect</h2>
+                <div class="martial-arts-grid">
+                    <div class="martial-art-card">
+                        <div class="card-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="martial-art-card">
+                        <div class="card-icon">✉️</div>
+                        <h3>Email</h3>
+                        <p>info@strangedefense.com</p>
+                    </div>
+                    <div class="martial-art-card">
+                        <div class="card-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>123 Defense Street</p>
+                        <p>Cityville, ST 12345</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

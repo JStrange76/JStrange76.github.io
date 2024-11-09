@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Program - Strange Self Defense</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="images/Strange_yinyang.jpeg" alt="Strange Self Defense Logo" class="logo">
+            <h1 class="business-name">Strange Self Defense</h1>
+        </div>
+    </header>
+
+    <div class="page-container">
+        <nav class="navbar">
+            <div class="nav-background">
+                <img src="images/Bamboo_2.jpg" alt="Bamboo Background" class="navbar-image">
+            </div>
+            <div class="buttons-container">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="web-defense.html" class="nav-link">Let's talk about Self Defense on the web!</a>
+                <a href="about.html" class="nav-link">About our Instructors</a>
+                <a href="students.html" class="nav-link">Our Students</a>
+                <a href="contact.html" class="nav-link">Let's Book a Session</a>
+            </div>
+        </nav>
+
+        <main class="content">
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1>It all comes down to what works for you</h1>
+                    <p>The best way to get the most out of your training with Strange Self Defense is to decide what you 
+                    want to get out of it. Don't know? That's okay, we can help with that!</p>
+                </div>
+            </section>
+
+            <div class="program-with-images">
+                <div class="action-image left">
+                    <img src="images/cynthia_rothrock.png" alt="Cynthia Rothrock" class="floating-image">
+                    <p>Cynthia Rothrock</p>
+                </div>
+
+                <section class="offerings-section">
+                    <h2>What We Offer</h2>
+                    <div class="program-grid">
+                        <div class="program-card" data-program="private">
+                            <h3>Private Lessons</h3>
+                            <!-- <p class="click-prompt">Click to learn more</p> -->
+                            <div class="expanded-content">
+                                <p>Unlock your full potential with our personalized one-on-one instruction, tailored specifically 
+                                to your goals. Your journey with us begins with a clear understanding of what you hope to achieve.</p>
+                            </div>
+                        </div>
+
+                        <div class="program-card" data-program="bootcamp">
+                            <h3>Bootcamps</h3>
+                            <!-- <p class="click-prompt">Click to learn more</p> -->
+                            <div class="expanded-content">
+                                <p>Not ready to commit long-term but eager to get started? Our Bootcamps are the perfect solution!</p>
+                            </div>
+                        </div>
+
+                        <div class="program-card" data-program="group">
+                            <h3>Group Classes</h3>
+                            <!-- <p class="click-prompt">Click to learn more</p> -->
+                            <div class="expanded-content">
+                                <p>Break free from the daily grind and experience the motivating camaraderie of our dynamic group lessons, where you’ll train with diverse people and enhance your ability to handle various situations and opponents.</p>
+                            </div>
+                        </div>
+
+                        <div class="program-card" data-program="traditional">
+                            <h3>Traditional Martial Arts</h3>
+                            <!-- <p class="click-prompt">Click to learn more</p> -->
+                            <div class="expanded-content">
+                                <p>Have you ever watched Jackie Chan on the big screen and thought, "Wow, I want to learn to do that"?</p>
+                            </div>
+                        </div>
+
+                        <div class="program-card" data-program="taichi">
+                            <h3>Tai Chi</h3>
+                            <!-- <p class="click-prompt">Click to learn more</p> -->
+                            <div class="expanded-content">
+                                <p>Are you looking to start a new physical activity but worried about keeping up? Tai Chi is the perfect method if you are just looking to "get started" without having to worry about doing the splits 😉</p>
+                            </div>
+                        </div>
+
+                        <div class="program-card" data-program="meditation">
+                            <h3>Meditation</h3>
+                            <!-- <p class="click-prompt">Click to learn more</p> -->
+                            <div class="expanded-content">
+                                <p>Do you just need to learn how to take a few minutes to yourself?</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="action-image right">
+                    <img src="images/joseph_nesta3.jpg" alt="Grand Master Shihan Joseph Nesta" class="floating-image">
+                    <p>Grand Master Shihan Joseph Nesta</p>
+                </div>
+            </div>
+
+            <section class="past-instructors">
+                <h2>Our Martial Arts Heritage</h2>
+                <div class="heritage-content">
+                    <p>Our instructors have embarked on incredible journeys to become the exceptional guides they 
+                        are today. They've spent years training with the best of the best.</p>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="master_taylor.png" alt="Grand Master Shihan Paul Taylor">
+                            <p>Grand Master Shihan Paul Taylor</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/monk_training_2.jpg" alt="The Shaolin Monks of China">
+                            <p>The Shaolin Monks of China</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/joseph_nesta2.png" alt="Grand Master Shihan Joseph Nesta">
+                            <p>Grand Master Shihan Joseph Nesta</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/master_clark.png" alt="Master William Clark">
+                            <p>Master William Clark</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="modal" id="programModal">
+        <div class="modal-content">
+            <button class="close-btn" title="Close">&times;</button>
+            <h3 id="modalTitle"></h3>
+            <div id="modalText"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
